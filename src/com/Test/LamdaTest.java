@@ -39,5 +39,7 @@ public class LamdaTest {
        Integer[] evens =
                Stream.of(sixNums).filter(n -> n%2 == 0).toArray(Integer[]::new);
        Stream.of(evens).forEach(System.out::print);
+
+
    }
 }
